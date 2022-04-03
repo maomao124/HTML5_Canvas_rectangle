@@ -9,7 +9,7 @@
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="HTML5_Canvas_Star_type_rectangle-1.0-SNAPSHOT.war">
+    <root id="archive" name="HTML5_Canvas_rectangle-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="HTML5_Canvas_Star_type_rectangle:war exploded" />
     </root>
   </artifact>
