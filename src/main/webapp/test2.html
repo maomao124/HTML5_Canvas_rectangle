@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：HTML5_Canvas_Star_type_rectangle
+  File name(文件名): test2
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/4/3
+  Time(创建时间)： 21:07
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        canvas {
+            border: 1px solid salmon;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="canvas" width="600" height="600">
+    浏览器不支持画布功能
+</canvas>
+
+<script>
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    //fillRect()方法绘制一个根据当前fillStyle填充的矩形。
+    // 此方法直接绘制到画布而不修改当前路径，因此任何后续的fill()或stroke()调用都不会对其产生影响。
+    //x – 矩形起点的 x 轴坐标。
+    // y – 矩形起点的 y 轴坐标。
+    // width – 矩形的宽度。正值在右边，负值在左边。
+    // height – 矩形的高度。正值下降，负值上升。
+    ctx.fillStyle = "green";
+    ctx.fillRect(100, 100, 400, 400);
+</script>
+
+</body>
+</html>
